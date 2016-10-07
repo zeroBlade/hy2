@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+.header{
+    margin-top:20px;
+}
+
+.header img{
+    width:100%;
+}
+
+.navbar-default .navbar-brand {
+    text-align: right;
+    color: #fff;
+}
+.container-fluid {
+    padding-left: 0px;
+    padding-right:0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.navbar {
+    background-color: #c91212;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+.dropdown {
+    /*font-family: arial, verdana, sans-serif;*/
+    /*display: block;*/
+    /*float: left;*/
+    /*width:76px;*/
+    /*height: 50px;*/
+    /*background-color: #c91212;*/
+    /*text-align: center;*/
+    /*color: #fff;*/
+    padding:0 0px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #c91212;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+nav ul li:hover {
+    background-color: #a81212;
+}
+.row {
+    margin-top: 20px;
+}
+.roll-player {
+    padding-top: 15px;
+    border-top:10px solid #c91212;
+}
+
+.roll-player img {
+    width:100%;
+}
+
+.block {
+    border:1px solid #ccc;
+    border-top:10px solid #c91212;
+    padding:10px 15px 15px 15px;
+}
+.block .block-title {
+    height:35px;
+    font-family: 微软雅黑;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-bottom: 1px dashed #ccc;
+}
+
+.block .block-content ul {
+    padding:0;
+    list-style: none;
+}
+.block .block-content ul li {
+    height:33px;
+    line-height: 33px;
+}
+.block .block-content ul li .time {
+    float: right;
+}
+
+.four-block {
+    margin: 0;
+    padding-top:-10px;
+
+}
+
+
+
+.four-block a {
+    display: block;
+    width: 100px;
+    height:100px;
+    background-color: #c91212 ;
+    font-family: 微软雅黑;
+    font-size: 2.1em;
+    text-align: center;
+    line-height: 50px;
+    margin:10px 15px 25px 0;
+
+}
+
+.small-block1 {
+    float: left;
+}
+.small-block2 {
+    float: right;
+}
+.small-block3 {
+    float: left;
+}
+.small-block4 {
+    float: right;
+}
+
+.four-block a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.link {
+    padding:10px;
+    border:1px solid #ccc;
+}
+.link img {
+    width:100%;
+}
+.link .link-text ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+
+.link .link-text td {
+    width: 100px;
+    height:31px;
+    line-height: 31px;
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    min-height:100px;
+    border-top:7px solid #c91212;
+    margin-top: 20px;
+}
+
+.footer table {
+    margin:auto;
+}
+
+.footer tr td {
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* ljz */
+html,body {
+    margin: -10px;
+}
+.top-header {
+    margin-top: 0;
+    height: 35px;
+    background: white;
+    margin-bottom: 0;
+    line-height: 35px;
+    text-align: right;
+}
+.top-header a {
+    text-decoration: none;
+    color: black;
+
+}

@@ -1,0 +1,346 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<!--[if IE 8]> <html lang="zh-CN" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="zh-CN" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="zh-CN">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+<meta charset="utf-8"/>
+
+<title>
+    <?php if(empty($pageTitle)): echo S('SITE_ADMIN_TITLE');?>
+    <?php else: ?>
+        <?php echo ($_pageTitle); ?> - <?php echo S('SITE_ADMIN_TITLE'); endif; ?>
+</title>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta content="<?php echo S('SITE_ADMIN_DESCRIPTION');?>" name="description"/>
+<meta content="homyit.cn" name="author"/>
+<!-- BEGIN GLOBAL MANDATORY STYLES -->
+<link href="/SIS.JXNU-B/Public/assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<link href="/SIS.JXNU-B/Public/assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
+<link href="/SIS.JXNU-B/Public/assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="/SIS.JXNU-B/Public/assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
+<!-- END GLOBAL MANDATORY STYLES -->
+<!-- BEGIN PAGE LEVEL STYLES -->
+
+<?php if(is_array($_assets["GLOBAL"]["CSS"])): foreach($_assets["GLOBAL"]["CSS"] as $key=>$item): ?><link href="/SIS.JXNU-B/Public/assets/global/styles/<?php echo ($item); ?>" rel="stylesheet" type="text/css"/><?php endforeach; endif; ?>
+<?php if(is_array($_assets["PLUGINS"]["CSS"])): foreach($_assets["PLUGINS"]["CSS"] as $key=>$item): ?><link href="/SIS.JXNU-B/Public/assets/global/plugins/<?php echo ($item); ?>" rel="stylesheet" type="text/css"/><?php endforeach; endif; ?>
+<?php if(is_array($_assets["PAGES"]["CSS"])): foreach($_assets["PAGES"]["CSS"] as $key=>$item): ?><link href="/SIS.JXNU-B/Public/assets/pages/styles/<?php echo ($item); ?>" rel="stylesheet" type="text/css"/><?php endforeach; endif; ?>
+
+<!-- END PAGE LEVEL STYLES -->
+<!-- BEGIN THEME STYLES -->
+<link href="/SIS.JXNU-B/Public/assets/global/styles/components.css" id="style_components" rel="stylesheet" type="text/css"/>
+<link href="/SIS.JXNU-B/Public/assets/global/styles/plugins.css" rel="stylesheet" type="text/css"/>
+<link href="/SIS.JXNU-B/Public/assets/layout/styles/layout.css" rel="stylesheet" type="text/css"/>
+<link href="/SIS.JXNU-B/Public/assets/layout/styles/themes/blue.css" rel="stylesheet" type="text/css"/>
+<link href="/SIS.JXNU-B/Public/assets/global/styles/hyframe.css" rel="stylesheet" type="text/css"/>
+<!-- END THEME STYLES -->
+<link rel="shortcut icon" href="favicon.ico"/>
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body class="page-header-fixed page-sidebar-closed-hide-logo page-container-bg-solid page-sidebar-closed-hide-logo">
+<!-- BEGIN HEADER -->
+<div class="page-header navbar navbar-fixed-top">
+    <!-- BEGIN HEADER INNER -->
+    <div class="page-header-inner">
+        <!-- BEGIN LOGO -->
+        <div class="page-logo">
+            <a href="index.html">
+                <img src="/SIS.JXNU-B/Public/assets/layout/img/logo-default.png" alt="logo" class="logo-default"/>
+            </a>
+            <div class="menu-toggler sidebar-toggler">
+                <!-- DOC: Remove the above "hide" to enable the sidebar toggler button on header -->
+            </div>
+        </div>
+        <!-- END LOGO -->
+        <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+        <a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+        </a>
+        <!-- END RESPONSIVE MENU TOGGLER -->
+        <!-- BEGIN PAGE TOP -->
+        <div class="page-top">
+            <!-- BEGIN HEADER SEARCH BOX -->
+            <!-- DOC: Apply "search-form-expanded" right after the "search-form" class to have half expanded search box -->
+           <!-- <form class="hy-search-form search-form search-form-expanded" action="extra_search.html" method="GET">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search..." name="query">
+                    <span class="input-group-btn">
+                    <a href="javascript:;" class="btn submit"><i class="icon-magnifier"></i></a>
+                    </span>
+                </div>
+            </form>-->
+            <!-- END HEADER SEARCH BOX -->
+            <!-- BEGIN TOP NAVIGATION MENU -->
+            <div class="top-menu">
+                <ul class="nav navbar-nav pull-right">
+                    <!-- BEGIN NOTIFICATION DROPDOWN -->
+                    <li class="dropdown dropdown-extended dropdown-notification" id="header_notification_bar">
+                        <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                        <i class="icon-bell"></i>
+                        <span class="badge badge-default">
+                        <?php echo count($hyAlerts);?> </span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="external">
+                                <h3><span class="bold"><?php echo count($hyAlerts);?></span> 条待处理的信息</h3>
+                                <a href="<?php echo U('System/HyAlert/all');?>">查看全部</a>
+                            </li>
+                            <li>
+                                <ul class="dropdown-menu-list scroller" style="height: 250px;" data-handle-color="#637283">
+                                    <?php if(empty($hyAlerts)): ?><li style="padding:10px;">暂无未读消息！</li><?php endif; ?>
+                                    <?php if(is_array($hyAlerts)): $i = 0; $__LIST__ = $hyAlerts;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><li>
+                                        <?php if(!empty($v['url'])): ?><a href="<?php echo U($v['url']);?>">
+                                        <?php else: ?>
+                                            <a href="javascript:;"><?php endif; ?>
+                                            
+                                                <span class="time">
+                                                    <?php echo (to_time($v["create_time"],5)); ?>
+                                                </span>
+                                                
+                                                <span class="details">
+                                                    <?php $arr=explode(',',$v['icon']); $icon=$arr[1]; $label=$arr[0]?:'label-success'; ?>
+                                                    <span class="label label-sm label-icon <?php echo ($label); ?>">
+                                                        <i class="fa <?php echo ($icon); ?> fa-fw"></i>
+                                                    </span>
+                                                    【<?php echo ($v["category"]); ?>】<?php echo ($v["message"]); ?>
+                                                </span>
+                                            </a>
+                                    </li><?php endforeach; endif; else: echo "" ;endif; ?>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- END NOTIFICATION DROPDOWN -->
+
+                    <!-- BEGIN USER LOGIN DROPDOWN -->                    
+                    <li class="dropdown dropdown-user">
+                        <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                            <img alt="" class="img-circle hide1" src="<?php echo session('avatarFile');?>"/>
+                            <span class="username username-hide-on-mobile">
+                            <?php echo session('userName');?>（<?php echo session('roleTitle');?>）</span>
+                            <i class="fa fa-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="<?php echo U('System/User/profile');?>">
+                                <i class="icon-user"></i> 个人信息</a>
+                            </li>
+                            <?php $roleSwitch=session('roleSwitch'); ?>
+                            <?php if(is_array($roleSwitch)): $i = 0; $__LIST__ = array_slice($roleSwitch,1,null,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><li>
+                                <a href="<?php echo U('System/HyStart/switchs',array('role'=>$key));?>">
+                                <i class="icon-settings"></i> 切换到 - <?php echo ($v); ?></a>
+                            </li><?php endforeach; endif; else: echo "" ;endif; ?>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="<?php echo U('System/HyStart/logout');?>">
+                                <i class="icon-logout"></i> 退出系统 </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- END USER LOGIN DROPDOWN -->
+                </ul>
+            </div>
+            <!-- END TOP NAVIGATION MENU -->
+        </div>
+        <!-- END PAGE TOP -->
+    </div>
+    <!-- END HEADER INNER -->
+</div>
+<!-- END HEADER -->
+<div class="clearfix">
+</div>
+<!-- BEGIN CONTAINER -->
+<div class="page-container hy-page-<?php echo strtolower(CONTROLLER_NAME);?>">
+    <!-- BEGIN SIDEBAR -->
+    <div class="page-sidebar-wrapper">
+        <!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
+        <!-- DOC: Change data-auto-speed="200" to adjust the sub menu slide up/down speed -->
+        <div class="page-sidebar navbar-collapse collapse">
+            <!-- BEGIN SIDEBAR MENU -->
+            <ul id="hy-sidebar-menu" class="page-sidebar-menu page-sidebar-menu-hover-submenu " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
+            </ul>
+            <!-- END SIDEBAR MENU -->
+        </div>
+    </div>
+    <!-- END SIDEBAR -->
+    <!-- BEGIN CONTENT -->
+    <div class="page-content-wrapper">
+        <div class="page-content">
+            <!-- BEGIN PAGE HEADER-->
+            <h3 class="page-title">
+                国际教育学院后台&nbsp;<small>简洁、流畅、安全、自适应移动设备</small>
+            </h3>
+            <div class="page-bar">
+                
+    <ul class="page-breadcrumb">
+        <li><i class="fa fa-home"></i> <a href="/SIS.JXNU-B">首页</a> <i class="fa fa-angle-right"></i></li>
+        <li><a href="javascript:;">excel导入数据库</a></li>
+    </ul>
+
+                
+            </div>
+            <div id="hy-alert-wrapper"></div>
+            <!-- END PAGE HEADER-->
+            <!-- BEGIN PAGE CONTENT-->
+            
+
+    <form action="javascript:;" class="form-horizontal form-bordered" id="excel-form">
+        <div class="form-body">
+            <div class="form-group">
+                <div class="col-md-12 col-sm-10">
+                    <div class="hy-upload display-none" data-field="file_id" style="display: block;">
+                        <div class="row">
+                            <div class="col-xs-6 col-md-2">
+                                <div class="b-upload__hint">请先选择文件</div>
+                                <div class="js-files b-upload__files"></div>
+                            </div>
+                            <div class="col-xs-6 col-md-6">
+                                <div class="btn blue btn-small js-fileapi-wrapper js-browse btn-select">
+                                    <span>选择</span>
+                                    <input type="file" name="filedata" accept="undefined">
+                                    <input type="hidden" name="file_id">
+                                </div>
+                                <div class="js-upload btn purple btn-small btn-upload" aria-disabled="disabled" style="display: none;">
+                                    <span>上传</span>
+                                </div>
+                                <button type="submit" class="btn purple excel-import"><i class="fa fa-check"></i>确定导入</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <div class="row">
+        <div class="col-md-6">
+            <!-- BEGIN Portlet PORTLET-->
+            <div class="portlet box green">
+                <div class="portlet-title">
+                    <div class="caption">
+                        <i class="fa fa-gift"></i>重复导入的学生的学号汇总
+                    </div>
+
+                </div>
+                <div class="portlet-body">
+                        <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 200px;"><div class="scroller" style="height: 200px; overflow: hidden; width: auto;" data-initialized="1">
+                            <strong>重复学号汇总</strong><br>
+                            <div  id="result-error_equal"></div>
+                        </div>
+                        <div class="slimScrollBar" style="width: 7px; position: absolute; top: 15px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; right: 1px; height: 185.185185185185px; background: rgb(187, 187, 187);"></div><div class="slimScrollRail" style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; opacity: 0.2; z-index: 90; right: 1px; background: rgb(234, 234, 234);">
+                        </div>
+                    </div>
+                 </div>
+            </div>
+            <!-- END Portlet PORTLET-->
+        </div>
+        <div class="col-md-6 ">
+            <!-- BEGIN Portlet PORTLET-->
+            <div class="portlet box green">
+                <div class="portlet-title">
+                    <div class="caption">
+                        <i class="fa fa-gift"></i>导入失败学生的学号汇总
+                    </div>
+
+                </div>
+                <div class="portlet-body">
+                    <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 200px;"><div class="scroller" style="height: 200px; overflow: hidden; width: auto;" data-initialized="1">
+                        <strong>导入失败学号汇总</strong><br>
+                        <div  id="result-error-write"></div>
+                    </div><div class="slimScrollBar" style="width: 7px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; right: 1px; height: 185.185185185185px; background: rgb(187, 187, 187);"></div><div class="slimScrollRail" style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; opacity: 0.2; z-index: 90; right: 1px; background: rgb(234, 234, 234);"></div></div>
+                </div>
+            </div>
+            <!-- END Portlet PORTLET-->
+        </div>
+    </div>
+
+            <!-- END PAGE CONTENT-->
+        </div>
+    </div>
+    <!-- END CONTENT -->
+</div>
+<!-- END CONTAINER -->
+<!-- BEGIN FOOTER -->
+<div class="page-footer">
+    <div class="page-footer-inner">
+         2014-2015 &copy; 宏奕工作室 Homyit Studio
+    </div>
+    <div class="scroll-to-top">
+        <i class="icon-arrow-up"></i>
+    </div>
+</div>
+<!-- END FOOTER -->
+<!-- BEGIN JAVASCRIPTS -->
+<script type="text/javascript">
+/* GLOBAL URL */
+var _ROOT_ = '/SIS.JXNU-B',
+    _PUBLIC_ = '/SIS.JXNU-B/Public',
+    _INDEX_ = '/SIS.JXNU-B/index.php',
+    _ACTION_ = '/SIS.JXNU-B/index.php/Excel/Excel/excel',
+    _MODULE_ = '/SIS.JXNU-B/index.php/Excel',
+    _CONTROLLER_ = '/SIS.JXNU-B/index.php/Excel/Excel';
+</script>
+<!-- BEGIN CORE PLUGINS -->
+<!--[if lt IE 9]>
+<script src="/SIS.JXNU-B/Public/assets/global/plugins/respond.min.js"></script>
+<script src="/SIS.JXNU-B/Public/assets/global/plugins/excanvas.min.js"></script> 
+<![endif]-->
+<script src="/SIS.JXNU-B/Public/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="/SIS.JXNU-B/Public/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="/SIS.JXNU-B/Public/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="/SIS.JXNU-B/Public/assets/global/plugins/jquery.blockui.js" type="text/javascript"></script>
+<script src="/SIS.JXNU-B/Public/assets/global/plugins/store-json2.min.js" type="text/javascript"></script>
+<script src="/SIS.JXNU-B/Public/assets/global/plugins/crypto.custom.min.js" type="text/javascript"></script>
+<script src="/SIS.JXNU-B/Public/assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+<script src="/SIS.JXNU-B/Public/assets/global/plugins/bootbox.min.js" type="text/javascript"></script>
+<script src="/SIS.JXNU-B/Public/assets/global/plugins/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+<!-- END CORE PLUGINS -->
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+
+<?php if(is_array($_assets["PLUGINS"]["JS"])): foreach($_assets["PLUGINS"]["JS"] as $key=>$item): ?><script src="/SIS.JXNU-B/Public/assets/global/plugins/<?php echo ($item); ?>" type="text/javascript"></script><?php endforeach; endif; ?>
+<!-- BEGIN CORE SCRIPTS -->
+<script src="/SIS.JXNU-B/Public/assets/global/scripts/metronic.js" type="text/javascript"></script>
+<script src="/SIS.JXNU-B/Public/assets/layout/scripts/layout.js" type="text/javascript"></script>
+<script src="/SIS.JXNU-B/Public/assets/global/scripts/hyframe.js" type="text/javascript"></script>
+<!-- END CORE SCRIPTS -->
+<?php if(is_array($_assets["GLOBAL"]["JS"])): foreach($_assets["GLOBAL"]["JS"] as $key=>$item): ?><script src="/SIS.JXNU-B/Public/assets/global/scripts/<?php echo ($item); ?>" type="text/javascript"></script><?php endforeach; endif; ?>
+<?php if(is_array($_assets["PAGES"]["JS"])): foreach($_assets["PAGES"]["JS"] as $key=>$item): ?><script src="/SIS.JXNU-B/Public/assets/pages/scripts/<?php echo ($item); ?>" type="text/javascript"></script><?php endforeach; endif; ?>
+<!-- END PAGE LEVEL SCRIPTS -->
+<script type="text/javascript">
+jQuery(document).ready(function() {
+    HyFrame.initMenu(<?php echo ($hyMenu); ?>);
+    Metronic.init();
+    Layout.init();
+    HyFrame.init();
+});
+</script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            ExcelImport.init();
+        });
+    </script>
+
+<!-- END JAVASCRIPTS -->
+<!-- BEGIN ANALYTICS -->
+<div class="hidden">
+<script type="text/javascript">
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?41c66ca2d9e89051b8f673b25979b6a0";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</div>
+<!-- END ANALYTICS -->
+</body>
+<!-- END BODY -->
+</html>

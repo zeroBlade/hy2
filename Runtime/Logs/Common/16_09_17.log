@@ -1,0 +1,48 @@
+[ 2016-09-17T15:46:22+08:00 ] ::1 /Hy2/index.php/GoodCourse/CourseView/all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载模块:GoodCourse
+
+[ 2016-09-17T15:46:27+08:00 ] ::1 /Hy2/index.php/GoodCourse/CourseView/all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:GoodCourse
+
+[ 2016-09-17T15:56:25+08:00 ] ::1 /Hy2/index.php/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-09-17T16:01:11+08:00 ] ::1 /Hy2/index.php/QuestionCategory/QuestionsTeacher/all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载模块:QuestionCategory
+
+[ 2016-09-17T16:05:31+08:00 ] ::1 /Hy2/index.php/GoodCourse/CourseView/all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载模块:GoodCourse
+
+[ 2016-09-17T16:05:34+08:00 ] ::1 /Hy2/index.php/GoodCourse/CourseView/all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+ERR: 无法加载模块:GoodCourse
+
+[ 2016-09-17T16:09:39+08:00 ] ::1 /Hy2/index.php/QuestionCategory/QuestionCategory/all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:QuestionCategory
+
+[ 2016-09-17T17:00:29+08:00 ] ::1 /Hy2/index.php/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Index
+

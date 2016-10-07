@@ -1,0 +1,1106 @@
+[ 2016-07-11T08:58:08+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/Category/Details/all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\SIS.JXNU-B\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000833s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001030s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `edu_details` [ RunTime:0.0131s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.010397s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.010566s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000167s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.000186s ]
+NOTIC: [8] Undefined index: all C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 922 行.
+NOTIC: [8] Undefined index: type C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 428 行.
+SQL: SHOW COLUMNS FROM `edu_category` [ RunTime:0.0087s ]
+SQL: SELECT `id`,`pid`,`name` FROM `edu_category` WHERE `status` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `edu_language` [ RunTime:0.0096s ]
+SQL: SELECT `id`,`language` FROM `edu_language` WHERE `status` = 1  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: title C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 425 行.
+NOTIC: [8] Undefined index: title C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 426 行.
+NOTIC: [8] Undefined index: search C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 428 行.
+NOTIC: [8] Undefined index: title C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 425 行.
+NOTIC: [8] Undefined index: list C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 425 行.
+NOTIC: [8] Undefined index: title C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 426 行.
+NOTIC: [8] Undefined index: search C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 428 行.
+NOTIC: [8] Undefined index: title C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 425 行.
+NOTIC: [8] Undefined index: title C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 426 行.
+NOTIC: [8] Undefined index: title C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 426 行.
+NOTIC: [8] Undefined index: search C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 428 行.
+NOTIC: [8] Undefined index: form C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 432 行.
+NOTIC: [8] Undefined index: search C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 428 行.
+NOTIC: [8] Undefined index: search C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 428 行.
+INFO: [ before_view ] --START--
+SQL: SHOW COLUMNS FROM `edu_frame_alert` [ RunTime:0.0099s ]
+SQL: SELECT `id`,`category`,`icon`,`message`,`url`,`type`,`create_time` FROM `edu_frame_alert` where `to_users` LIKE '%,18,%' AND ( IFNULL(`read_users`,'')='' OR `read_users` NOT LIKE '%,18,%') AND `status`=1 ORDER BY `id` DESC [ RunTime:0.0006s ]
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.014360s ]
+INFO: [ before_view ] --END-- [ RunTime:0.014525s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000331s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000502s ]
+NOTIC: [8] Undefined index: GLOBAL C:\wamp\www\SIS.JXNU-B\Runtime\Cache\Category\9c07dc003a2105c82c74ba68c02f614c.php 第 32 行.
+NOTIC: [8] Undefined variable: _middle C:\wamp\www\SIS.JXNU-B\Runtime\Cache\Category\9c07dc003a2105c82c74ba68c02f614c.php 第 194 行.
+NOTIC: [8] Undefined variable: _bottom C:\wamp\www\SIS.JXNU-B\Runtime\Cache\Category\9c07dc003a2105c82c74ba68c02f614c.php 第 213 行.
+NOTIC: [8] Undefined variable: _script C:\wamp\www\SIS.JXNU-B\Runtime\Cache\Category\9c07dc003a2105c82c74ba68c02f614c.php 第 272 行.
+NOTIC: [8] Undefined index: GLOBAL C:\wamp\www\SIS.JXNU-B\Runtime\Cache\Category\9c07dc003a2105c82c74ba68c02f614c.php 第 280 行.
+NOTIC: [8] Undefined variable: hyMenu C:\wamp\www\SIS.JXNU-B\Runtime\Cache\Category\9c07dc003a2105c82c74ba68c02f614c.php 第 285 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.198771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.198947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002571s ]
+
+[ 2016-07-11T08:58:09+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/Category/Details/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\SIS.JXNU-B\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001856s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002191s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `edu_details` [ RunTime:0.0150s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000101s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.000237s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000136s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.000137s ]
+NOTIC: [8] Undefined index: limit C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 160 行.
+NOTIC: [8] Undefined index: order C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined index: field C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 170 行.
+NOTIC: [8] Undefined index: where C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: decrypt C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+SQL: SHOW COLUMNS FROM `edu_details` [ RunTime:0.0076s ]
+SQL: SELECT 1 FROM `edu_details` `hy` LEFT JOIN `edu_user` AS `user` ON hy.user_id = user.id LEFT JOIN `edu_language` AS `language` ON hy.language_id = language.id LEFT JOIN `edu_category` AS `category` ON hy.category_id = category.id LEFT JOIN `edu_frame_file` AS `frame_file` ON hy.file_id = frame_file.id  WHERE hy.status < 9  [ RunTime:0.0045s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000149s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.026753s ]
+NOTIC: [8] Undefined index: hy C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 140 行.
+NOTIC: [8] Undefined index: associate C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+SQL: SHOW COLUMNS FROM `edu_details` [ RunTime:0.0094s ]
+SQL: SELECT hy.id,hy.language_id,hy.category_id,hy.title,hy.content,hy.user_id,hy.file_id,hy.create_time,hy.update_time,hy.status,hy.hit,hy.is_check,hy.is_publish,user.name AS `user_name`,language.language AS `language_name`,category.name AS `category_name`,frame_file.name AS `file_name` FROM `edu_details` `hy` LEFT JOIN `edu_user` AS `user` ON hy.user_id = user.id LEFT JOIN `edu_language` AS `language` ON hy.language_id = language.id LEFT JOIN `edu_category` AS `category` ON hy.category_id = category.id LEFT JOIN `edu_frame_file` AS `frame_file` ON hy.file_id = frame_file.id  WHERE hy.status < 9 ORDER BY hy.id desc LIMIT 10   [ RunTime:0.2723s ]
+NOTIC: [8] Undefined index: hidden C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 595 行.
+NOTIC: [8] Undefined index: hidden C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 595 行.
+NOTIC: [8] Undefined index: title C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 595 行.
+NOTIC: [8] Undefined index: title C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 595 行.
+NOTIC: [8] Undefined index: title C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 595 行.
+NOTIC: [8] Undefined index: hidden C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 595 行.
+NOTIC: [8] Undefined index: hidden C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 595 行.
+NOTIC: [8] Undefined index: hidden C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 595 行.
+NOTIC: [8] Undefined index: hidden C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 595 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: language_id_text C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 820 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: list C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 605 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: language_id_text C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 820 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: list C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 605 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: language_id_text C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 820 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: list C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 605 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: language_id_text C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 820 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: list C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 605 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: language_id_text C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 820 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: list C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 605 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: language_id_text C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 820 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: list C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 605 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: language_id_text C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 820 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: list C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 605 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: language_id_text C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 820 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: list C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 605 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: language_id_text C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 820 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: list C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 605 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: language_id_text C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 820 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: list C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 605 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: info C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 470 行.
+INFO: [ hy_log ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000044s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.334407s ]
+
+[ 2016-07-11T08:58:10+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/Category/Details/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+
+[ 2016-07-11T08:58:12+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/Category/Details/ajax?q=detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\SIS.JXNU-B\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001495s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001793s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `edu_details` [ RunTime:0.0132s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000099s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.000235s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000162s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.000137s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000201s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.000578s ]
+NOTIC: [2] Missing argument 1 for Common\Model\HyFrameModel::find(), called in C:\wamp\www\SIS.JXNU-B\Application\Category\Model\DetailsSAModel.class.php on line 364 and defined C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 271 行.
+NOTIC: [8] Undefined variable: options C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 272 行.
+NOTIC: [8] Undefined variable: options C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 273 行.
+NOTIC: [8] Undefined index: hy C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 140 行.
+NOTIC: [8] Undefined index: order C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined index: field C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 170 行.
+NOTIC: [8] Undefined index: decrypt C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+SQL: SHOW COLUMNS FROM `edu_details` [ RunTime:0.0073s ]
+SQL: SELECT hy.id,hy.language_id,hy.category_id,hy.title,hy.content,hy.user_id,hy.file_id,hy.create_time,hy.update_time,hy.status,hy.hit,hy.is_check,hy.is_publish,user.name AS `user_name`,language.language AS `language_id_text`,category.name AS `category_name`,frame_file.name AS `file_name` FROM `edu_details` `hy` LEFT JOIN `edu_user` AS `user` ON hy.user_id = user.id LEFT JOIN `edu_language` AS `language` ON hy.language_id = language.id LEFT JOIN `edu_category` AS `category` ON hy.category_id = category.id LEFT JOIN `edu_frame_file` AS `frame_file` ON hy.file_id = frame_file.id  WHERE hy.id = '736' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: tpl C:\wamp\www\SIS.JXNU-B\Application\Common\Controller\HyAllController.class.php 第 90 行.
+INFO: [ before_view ] --START--
+SQL: SHOW COLUMNS FROM `edu_frame_alert` [ RunTime:0.0116s ]
+SQL: SELECT `id`,`category`,`icon`,`message`,`url`,`type`,`create_time` FROM `edu_frame_alert` where `to_users` LIKE '%,18,%' AND ( IFNULL(`read_users`,'')='' OR `read_users` NOT LIKE '%,18,%') AND `status`=1 ORDER BY `id` DESC [ RunTime:0.0005s ]
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.016524s ]
+INFO: [ before_view ] --END-- [ RunTime:0.016683s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+NOTIC: [8] Undefined index: json C:\wamp\www\SIS.JXNU-B\Runtime\Cache\Category\c6d80dac29f4bb3371a39f454a43cf44.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000940s ]
+
+[ 2016-07-11T08:59:26+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/Category/Details/ajax?q=detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001577s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\SIS.JXNU-B\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000874s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001037s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `edu_details` [ RunTime:0.0144s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000137s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.000307s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000158s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.000197s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000133s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.000693s ]
+NOTIC: [2] Missing argument 1 for Common\Model\HyFrameModel::find(), called in C:\wamp\www\SIS.JXNU-B\Application\Category\Model\DetailsSAModel.class.php on line 364 and defined C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 271 行.
+NOTIC: [8] Undefined variable: options C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 272 行.
+NOTIC: [8] Undefined variable: options C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 273 行.
+NOTIC: [8] Undefined index: hy C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 140 行.
+NOTIC: [8] Undefined index: order C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined index: field C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 170 行.
+NOTIC: [8] Undefined index: decrypt C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+SQL: SHOW COLUMNS FROM `edu_details` [ RunTime:0.0078s ]
+SQL: SELECT hy.id,hy.language_id,hy.category_id,hy.title,hy.content,hy.user_id,hy.file_id,hy.create_time,hy.update_time,hy.status,hy.hit,hy.is_check,hy.is_publish,user.name AS `user_name`,language.language AS `language_id_text`,category.name AS `category_name`,frame_file.name AS `file_name` FROM `edu_details` `hy` LEFT JOIN `edu_user` AS `user` ON hy.user_id = user.id LEFT JOIN `edu_language` AS `language` ON hy.language_id = language.id LEFT JOIN `edu_category` AS `category` ON hy.category_id = category.id LEFT JOIN `edu_frame_file` AS `frame_file` ON hy.file_id = frame_file.id  WHERE hy.id = '734' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: tpl C:\wamp\www\SIS.JXNU-B\Application\Common\Controller\HyAllController.class.php 第 90 行.
+INFO: [ before_view ] --START--
+SQL: SHOW COLUMNS FROM `edu_frame_alert` [ RunTime:0.0206s ]
+SQL: SELECT `id`,`category`,`icon`,`message`,`url`,`type`,`create_time` FROM `edu_frame_alert` where `to_users` LIKE '%,18,%' AND ( IFNULL(`read_users`,'')='' OR `read_users` NOT LIKE '%,18,%') AND `status`=1 ORDER BY `id` DESC [ RunTime:0.0005s ]
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.025363s ]
+INFO: [ before_view ] --END-- [ RunTime:0.025593s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+NOTIC: [8] Undefined index: json C:\wamp\www\SIS.JXNU-B\Runtime\Cache\Category\c6d80dac29f4bb3371a39f454a43cf44.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001235s ]
+
+[ 2016-07-11T09:00:48+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/Category/Details/ajax?q=detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\SIS.JXNU-B\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001865s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002093s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `edu_details` [ RunTime:0.0167s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000168s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.000392s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000191s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.000176s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000147s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.000716s ]
+NOTIC: [2] Missing argument 1 for Common\Model\HyFrameModel::find(), called in C:\wamp\www\SIS.JXNU-B\Application\Category\Model\DetailsSAModel.class.php on line 364 and defined C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 271 行.
+NOTIC: [8] Undefined variable: options C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 272 行.
+NOTIC: [8] Undefined variable: options C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 273 行.
+NOTIC: [8] Undefined index: hy C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 140 行.
+NOTIC: [8] Undefined index: order C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined index: field C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 170 行.
+NOTIC: [8] Undefined index: decrypt C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+SQL: SHOW COLUMNS FROM `edu_details` [ RunTime:0.0082s ]
+SQL: SELECT hy.id,hy.language_id,hy.category_id,hy.title,hy.content,hy.user_id,hy.file_id,hy.create_time,hy.update_time,hy.status,hy.hit,hy.is_check,hy.is_publish,user.name AS `user_name`,language.language AS `language_id_text`,category.name AS `category_name`,frame_file.name AS `file_name` FROM `edu_details` `hy` LEFT JOIN `edu_user` AS `user` ON hy.user_id = user.id LEFT JOIN `edu_language` AS `language` ON hy.language_id = language.id LEFT JOIN `edu_category` AS `category` ON hy.category_id = category.id LEFT JOIN `edu_frame_file` AS `frame_file` ON hy.file_id = frame_file.id  WHERE hy.id = '738' LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: tpl C:\wamp\www\SIS.JXNU-B\Application\Common\Controller\HyAllController.class.php 第 90 行.
+INFO: [ before_view ] --START--
+SQL: SHOW COLUMNS FROM `edu_frame_alert` [ RunTime:0.0094s ]
+SQL: SELECT `id`,`category`,`icon`,`message`,`url`,`type`,`create_time` FROM `edu_frame_alert` where `to_users` LIKE '%,18,%' AND ( IFNULL(`read_users`,'')='' OR `read_users` NOT LIKE '%,18,%') AND `status`=1 ORDER BY `id` DESC [ RunTime:0.0004s ]
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.014385s ]
+INFO: [ before_view ] --END-- [ RunTime:0.014594s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000482s ]
+NOTIC: [8] Undefined index: json C:\wamp\www\SIS.JXNU-B\Runtime\Cache\Category\c6d80dac29f4bb3371a39f454a43cf44.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001537s ]
+
+[ 2016-07-11T14:47:51+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/Category/Details/all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\SIS.JXNU-B\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002189s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002448s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `edu_details` [ RunTime:0.0126s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000115s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.000277s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000160s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.000182s ]
+NOTIC: [8] Undefined index: all C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 922 行.
+NOTIC: [8] Undefined index: type C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 428 行.
+SQL: SHOW COLUMNS FROM `edu_category` [ RunTime:0.0124s ]
+SQL: SELECT `id`,`pid`,`name` FROM `edu_category` WHERE `status` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `edu_language` [ RunTime:0.0081s ]
+SQL: SELECT `id`,`language` FROM `edu_language` WHERE `status` = 1  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: title C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 425 行.
+NOTIC: [8] Undefined index: title C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 426 行.
+NOTIC: [8] Undefined index: search C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 428 行.
+NOTIC: [8] Undefined index: title C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 425 行.
+NOTIC: [8] Undefined index: list C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 425 行.
+NOTIC: [8] Undefined index: title C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 426 行.
+NOTIC: [8] Undefined index: search C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 428 行.
+NOTIC: [8] Undefined index: title C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 425 行.
+NOTIC: [8] Undefined index: title C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 426 行.
+NOTIC: [8] Undefined index: title C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 426 行.
+NOTIC: [8] Undefined index: search C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 428 行.
+NOTIC: [8] Undefined index: form C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 432 行.
+NOTIC: [8] Undefined index: search C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 428 行.
+NOTIC: [8] Undefined index: search C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 428 行.
+INFO: [ before_view ] --START--
+SQL: SHOW COLUMNS FROM `edu_frame_alert` [ RunTime:0.0097s ]
+SQL: SELECT `id`,`category`,`icon`,`message`,`url`,`type`,`create_time` FROM `edu_frame_alert` where `to_users` LIKE '%,18,%' AND ( IFNULL(`read_users`,'')='' OR `read_users` NOT LIKE '%,18,%') AND `status`=1 ORDER BY `id` DESC [ RunTime:0.0005s ]
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.014255s ]
+INFO: [ before_view ] --END-- [ RunTime:0.014409s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000335s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000562s ]
+NOTIC: [8] Undefined index: GLOBAL C:\wamp\www\SIS.JXNU-B\Runtime\Cache\Category\9c07dc003a2105c82c74ba68c02f614c.php 第 32 行.
+NOTIC: [8] Undefined variable: _middle C:\wamp\www\SIS.JXNU-B\Runtime\Cache\Category\9c07dc003a2105c82c74ba68c02f614c.php 第 194 行.
+NOTIC: [8] Undefined variable: _bottom C:\wamp\www\SIS.JXNU-B\Runtime\Cache\Category\9c07dc003a2105c82c74ba68c02f614c.php 第 213 行.
+NOTIC: [8] Undefined variable: _script C:\wamp\www\SIS.JXNU-B\Runtime\Cache\Category\9c07dc003a2105c82c74ba68c02f614c.php 第 272 行.
+NOTIC: [8] Undefined index: GLOBAL C:\wamp\www\SIS.JXNU-B\Runtime\Cache\Category\9c07dc003a2105c82c74ba68c02f614c.php 第 280 行.
+NOTIC: [8] Undefined variable: hyMenu C:\wamp\www\SIS.JXNU-B\Runtime\Cache\Category\9c07dc003a2105c82c74ba68c02f614c.php 第 285 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.179562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.179737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003565s ]
+
+[ 2016-07-11T14:47:52+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/Category/Details/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001548s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\SIS.JXNU-B\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002186s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002447s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `edu_details` [ RunTime:0.0254s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000195s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.000452s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000142s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.000149s ]
+NOTIC: [8] Undefined index: limit C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 160 行.
+NOTIC: [8] Undefined index: order C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined index: field C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 170 行.
+NOTIC: [8] Undefined index: where C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: decrypt C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+SQL: SHOW COLUMNS FROM `edu_details` [ RunTime:0.0083s ]
+SQL: SELECT 1 FROM `edu_details` `hy` LEFT JOIN `edu_user` AS `user` ON hy.user_id = user.id LEFT JOIN `edu_language` AS `language` ON hy.language_id = language.id LEFT JOIN `edu_category` AS `category` ON hy.category_id = category.id LEFT JOIN `edu_frame_file` AS `frame_file` ON hy.file_id = frame_file.id  WHERE hy.status < 9  [ RunTime:0.0032s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000181s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.017703s ]
+NOTIC: [8] Undefined index: hy C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 140 行.
+NOTIC: [8] Undefined index: associate C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+SQL: SHOW COLUMNS FROM `edu_details` [ RunTime:0.0068s ]
+SQL: SELECT hy.id,hy.language_id,hy.category_id,hy.title,hy.content,hy.user_id,hy.file_id,hy.create_time,hy.update_time,hy.status,hy.hit,hy.is_check,hy.is_publish,user.name AS `user_name`,language.language AS `language_name`,category.name AS `category_name`,frame_file.name AS `file_name` FROM `edu_details` `hy` LEFT JOIN `edu_user` AS `user` ON hy.user_id = user.id LEFT JOIN `edu_language` AS `language` ON hy.language_id = language.id LEFT JOIN `edu_category` AS `category` ON hy.category_id = category.id LEFT JOIN `edu_frame_file` AS `frame_file` ON hy.file_id = frame_file.id  WHERE hy.status < 9 ORDER BY hy.id desc LIMIT 10   [ RunTime:0.1011s ]
+NOTIC: [8] Undefined index: hidden C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 595 行.
+NOTIC: [8] Undefined index: hidden C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 595 行.
+NOTIC: [8] Undefined index: title C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 595 行.
+NOTIC: [8] Undefined index: title C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 595 行.
+NOTIC: [8] Undefined index: title C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 595 行.
+NOTIC: [8] Undefined index: hidden C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 595 行.
+NOTIC: [8] Undefined index: hidden C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 595 行.
+NOTIC: [8] Undefined index: hidden C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 595 行.
+NOTIC: [8] Undefined index: hidden C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 595 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: language_id_text C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 820 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: list C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 605 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: language_id_text C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 820 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: list C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 605 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: language_id_text C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 820 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: list C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 605 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: language_id_text C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 820 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: list C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 605 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: language_id_text C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 820 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: list C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 605 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: language_id_text C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 820 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: list C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 605 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: language_id_text C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 820 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: list C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 605 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: language_id_text C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 820 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: list C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 605 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: language_id_text C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 820 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: list C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 605 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: language_id_text C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 820 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: list C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 605 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: info C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 470 行.
+INFO: [ hy_log ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000043s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.145891s ]
+
+[ 2016-07-11T14:47:52+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/Category/Details/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001054s ]
+
+[ 2016-07-11T14:47:55+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/Category/Details/ajax?q=detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\SIS.JXNU-B\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001666s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001939s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `edu_details` [ RunTime:0.0159s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000109s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.000279s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000136s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.000154s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000181s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.000572s ]
+NOTIC: [2] Missing argument 1 for Common\Model\HyFrameModel::find(), called in C:\wamp\www\SIS.JXNU-B\Application\Category\Model\DetailsSAModel.class.php on line 364 and defined C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 271 行.
+NOTIC: [8] Undefined variable: options C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 272 行.
+NOTIC: [8] Undefined variable: options C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 273 行.
+NOTIC: [8] Undefined index: hy C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 140 行.
+NOTIC: [8] Undefined index: order C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined index: field C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 170 行.
+NOTIC: [8] Undefined index: decrypt C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+SQL: SHOW COLUMNS FROM `edu_details` [ RunTime:0.0080s ]
+SQL: SELECT hy.id,hy.language_id,hy.category_id,hy.title,hy.content,hy.user_id,hy.file_id,hy.create_time,hy.update_time,hy.status,hy.hit,hy.is_check,hy.is_publish,user.name AS `user_name`,language.language AS `language_id_text`,category.name AS `category_name`,frame_file.name AS `file_name` FROM `edu_details` `hy` LEFT JOIN `edu_user` AS `user` ON hy.user_id = user.id LEFT JOIN `edu_language` AS `language` ON hy.language_id = language.id LEFT JOIN `edu_category` AS `category` ON hy.category_id = category.id LEFT JOIN `edu_frame_file` AS `frame_file` ON hy.file_id = frame_file.id  WHERE hy.id = '738' LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: tpl C:\wamp\www\SIS.JXNU-B\Application\Common\Controller\HyAllController.class.php 第 90 行.
+INFO: [ before_view ] --START--
+SQL: SHOW COLUMNS FROM `edu_frame_alert` [ RunTime:0.0118s ]
+SQL: SELECT `id`,`category`,`icon`,`message`,`url`,`type`,`create_time` FROM `edu_frame_alert` where `to_users` LIKE '%,18,%' AND ( IFNULL(`read_users`,'')='' OR `read_users` NOT LIKE '%,18,%') AND `status`=1 ORDER BY `id` DESC [ RunTime:0.0005s ]
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.018663s ]
+INFO: [ before_view ] --END-- [ RunTime:0.018907s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8] Undefined index: json C:\wamp\www\SIS.JXNU-B\Runtime\Cache\Category\c6d80dac29f4bb3371a39f454a43cf44.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.154322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.154525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001387s ]
+
+[ 2016-07-11T14:48:04+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/Category/Details/ajax?q=detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\SIS.JXNU-B\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001347s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001527s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `edu_details` [ RunTime:0.0147s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000110s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.000288s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000173s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.000148s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000137s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.000657s ]
+NOTIC: [2] Missing argument 1 for Common\Model\HyFrameModel::find(), called in C:\wamp\www\SIS.JXNU-B\Application\Category\Model\DetailsSAModel.class.php on line 364 and defined C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 271 行.
+NOTIC: [8] Undefined variable: options C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 272 行.
+NOTIC: [8] Undefined variable: options C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 273 行.
+NOTIC: [8] Undefined index: hy C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 140 行.
+NOTIC: [8] Undefined index: order C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined index: field C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 170 行.
+NOTIC: [8] Undefined index: decrypt C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+SQL: SHOW COLUMNS FROM `edu_details` [ RunTime:0.0072s ]
+SQL: SELECT hy.id,hy.language_id,hy.category_id,hy.title,hy.content,hy.user_id,hy.file_id,hy.create_time,hy.update_time,hy.status,hy.hit,hy.is_check,hy.is_publish,user.name AS `user_name`,language.language AS `language_id_text`,category.name AS `category_name`,frame_file.name AS `file_name` FROM `edu_details` `hy` LEFT JOIN `edu_user` AS `user` ON hy.user_id = user.id LEFT JOIN `edu_language` AS `language` ON hy.language_id = language.id LEFT JOIN `edu_category` AS `category` ON hy.category_id = category.id LEFT JOIN `edu_frame_file` AS `frame_file` ON hy.file_id = frame_file.id  WHERE hy.id = '737' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: tpl C:\wamp\www\SIS.JXNU-B\Application\Common\Controller\HyAllController.class.php 第 90 行.
+INFO: [ before_view ] --START--
+SQL: SHOW COLUMNS FROM `edu_frame_alert` [ RunTime:0.0223s ]
+SQL: SELECT `id`,`category`,`icon`,`message`,`url`,`type`,`create_time` FROM `edu_frame_alert` where `to_users` LIKE '%,18,%' AND ( IFNULL(`read_users`,'')='' OR `read_users` NOT LIKE '%,18,%') AND `status`=1 ORDER BY `id` DESC [ RunTime:0.0004s ]
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.027464s ]
+INFO: [ before_view ] --END-- [ RunTime:0.027628s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+NOTIC: [8] Undefined index: json C:\wamp\www\SIS.JXNU-B\Runtime\Cache\Category\c6d80dac29f4bb3371a39f454a43cf44.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001140s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001290s ]
+
+[ 2016-07-11T14:49:30+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/Category/Details/ajax?q=insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002958s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\SIS.JXNU-B\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001313s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001470s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `edu_details` [ RunTime:0.0430s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000101s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.000261s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000133s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.000142s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000125s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.021191s ]
+NOTIC: [8] Undefined index: fill C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 935 行.
+NOTIC: [8] Undefined index: add C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 939 行.
+NOTIC: [8] Undefined index: table C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 963 行.
+NOTIC: [8] Undefined index: fill C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 935 行.
+NOTIC: [8] Undefined index: add C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 939 行.
+NOTIC: [8] Undefined index: addon C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 957 行.
+NOTIC: [8] Undefined index: table C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 963 行.
+NOTIC: [8] Undefined index: fill C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 935 行.
+NOTIC: [8] Undefined index: add C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 939 行.
+NOTIC: [8] Undefined index: select C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 957 行.
+NOTIC: [8] Undefined index: table C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 963 行.
+NOTIC: [8] Undefined index: table C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 963 行.
+NOTIC: [8] Undefined index: table C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 963 行.
+NOTIC: [8] Undefined index: type C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 941 行.
+NOTIC: [8] Undefined index: table C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 963 行.
+NOTIC: [8] Undefined index: fill C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 935 行.
+NOTIC: [8] Undefined index: add C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 939 行.
+NOTIC: [8] Undefined index: fill C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 954 行.
+NOTIC: [8] Undefined index: table C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 963 行.
+NOTIC: [8] Undefined index: fill C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 935 行.
+NOTIC: [8] Undefined index: add C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 939 行.
+NOTIC: [8] Undefined index: select C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 957 行.
+NOTIC: [8] Undefined index: table C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 963 行.
+NOTIC: [8] Undefined index: fill C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 935 行.
+NOTIC: [8] Undefined index: add C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 939 行.
+NOTIC: [8] Undefined index: select C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 957 行.
+NOTIC: [8] Undefined index: table C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 963 行.
+NOTIC: [8] Undefined index: fill C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 935 行.
+NOTIC: [8] Undefined index: add C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 939 行.
+NOTIC: [8] Undefined index: select C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 957 行.
+NOTIC: [8] Undefined index: table C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 963 行.
+NOTIC: [8] Undefined index: table C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 993 行.
+NOTIC: [8] Undefined index: title C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 995 行.
+NOTIC: [8] Undefined index: edit C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 998 行.
+NOTIC: [8] Undefined index: add C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 1000 行.
+NOTIC: [8] Undefined index: server C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 1013 行.
+NOTIC: [8] Undefined index: table C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 993 行.
+NOTIC: [8] Undefined index: title C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 995 行.
+NOTIC: [8] Undefined index: edit C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 998 行.
+NOTIC: [8] Undefined index: add C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 1000 行.
+NOTIC: [8] Undefined index: server C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 1013 行.
+NOTIC: [8] Undefined index: table C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 993 行.
+NOTIC: [8] Undefined index: title C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 995 行.
+NOTIC: [8] Undefined index: edit C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 998 行.
+NOTIC: [8] Undefined index: add C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 1000 行.
+NOTIC: [8] Undefined index: server C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 1013 行.
+NOTIC: [8] Undefined index: table C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 993 行.
+NOTIC: [8] Undefined index: server C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 1013 行.
+NOTIC: [8] Undefined index: table C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 993 行.
+NOTIC: [8] Undefined index: validate C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 994 行.
+NOTIC: [8] Undefined index: table C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 993 行.
+NOTIC: [8] Undefined index: validate C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 994 行.
+NOTIC: [8] Undefined index: table C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 993 行.
+NOTIC: [8] Undefined index: validate C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 994 行.
+NOTIC: [8] Undefined index: table C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 993 行.
+NOTIC: [8] Undefined index: validate C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 994 行.
+NOTIC: [8] Undefined index: table C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 993 行.
+NOTIC: [8] Undefined index: validate C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 994 行.
+NOTIC: [8] Undefined index: table C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 993 行.
+NOTIC: [8] Undefined index: validate C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 994 行.
+NOTIC: [8] Undefined index: table C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 976 行.
+NOTIC: [8] Undefined index: fill C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 977 行.
+NOTIC: [8] Undefined index: table C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 976 行.
+NOTIC: [8] Undefined index: fill C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 977 行.
+NOTIC: [8] Undefined index: table C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 976 行.
+NOTIC: [8] Undefined index: fill C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 977 行.
+NOTIC: [8] Undefined index: table C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 976 行.
+NOTIC: [8] Undefined index: add C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 978 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: table C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 976 行.
+NOTIC: [8] Undefined index: add C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 978 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: table C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 976 行.
+NOTIC: [8] Undefined index: add C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 978 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: user_id C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 811 行.
+NOTIC: [8] Undefined index: table C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 976 行.
+NOTIC: [8] Undefined index: add C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 978 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [2] Missing argument 2 for Common\Model\HyAllModel::callback_writeFile() C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 1054 行.
+NOTIC: [8] Undefined index: table C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 976 行.
+NOTIC: [8] Undefined index: fill C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 977 行.
+NOTIC: [8] Undefined index: table C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 976 行.
+NOTIC: [8] Undefined index: fill C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 977 行.
+NOTIC: [8] Undefined index: table C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 976 行.
+NOTIC: [8] Undefined index: fill C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 977 行.
+SQL: INSERT INTO `edu_details` (`title`,`category_id`,`language_id`,`create_time`,`content`,`is_check`,`is_publish`,`status`,`user_id`) VALUES ('新西兰垦丁爱你','17','2','1468219770','<p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; text-indent: 2em; color: rgb(51, 51, 51); white-space: normal; padding: 15px 0px 0px; font-family: 宋体; font-size: 14px; line-height: 26px; background-color: rgb(255, 255, 255);\">麦可思研究院日前公布的大学生就业数据显示，2010—2014届本科毕业生和高职高专毕业生失业比例5年来呈连续下降趋势，本科从8.1%降至6.4%，高职高专从11.6%降至8.1%。在根据CPI(消费者物价指数)进行调整后，2010—2014届本科毕业生的平均月收入从2815元增长到3334元，增幅为18%;2010—2014届高职高专毕业生的平均月收入从2142元增长到2828元，增幅为32%。</p><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; text-indent: 2em; color: rgb(51, 51, 51); white-space: normal; padding: 15px 0px 0px; font-family: 宋体; font-size: 14px; line-height: 26px; background-color: rgb(255, 255, 255);\">　　数据显示，失业比例下降的一个原因是毕业去向的分流。在2010—2014届本科毕业生中，受雇全职工作的比例呈下降趋势，“自主创业”、“正在国内读研”与“正在港澳台及国外读研”的比例持续上升。2010—2014届高职高专毕业生中，全职工作的比例基本持平。</p><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; text-indent: 2em; color: rgb(51, 51, 51); white-space: normal; padding: 15px 0px 0px; font-family: 宋体; font-size: 14px; line-height: 26px; background-color: rgb(255, 255, 255);\">　　2014届本科毕业生平均月收入为3773元，相较2010届(2815元)提升了34%，2014届高职高专毕业生平均月收入为3200元，相较2010届(2142元)提升了49%。2010—2014届本科毕业生和高职高专毕业生的平均月收入均有不同程度增长，这表明大学毕业生的实际收入水平有明显提高。</p><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; text-indent: 2em; color: rgb(51, 51, 51); white-space: normal; padding: 15px 0px 0px; font-family: 宋体; font-size: 14px; line-height: 26px; background-color: rgb(255, 255, 255);\">　　数据表明，毕业生里的“蚁族”现象在过去5年有所缓解，2010—2014届本科毕业生月收入在2500元(含)以下、高职高专毕业生月收入在2000元(含)以下的所占比例逐年明显减少。</p><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; text-indent: 2em; color: rgb(51, 51, 51); white-space: normal; padding: 15px 0px 0px; font-family: 宋体; font-size: 14px; line-height: 26px; background-color: rgb(255, 255, 255);\">　　从毕业去向的城市类型来看，2010—2014届本科毕业生在地级市及以下就业的比例基本持平，高职高专毕业生在地级市及以下就业的比例从56%上升到60%。数据表明，在过去5年里，大学毕业生的就业城市分布已初步出现“重心下沉”。</p><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; text-indent: 2em; color: rgb(51, 51, 51); white-space: normal; padding: 15px 0px 0px; font-family: 宋体; font-size: 14px; line-height: 26px; background-color: rgb(255, 255, 255);\">　　从雇主规模来看，这5年来，本科毕业生的去向主要从大型企业流向了中小型企业。2010—2014届本科毕业生中，在中小型企业就业的人数比例呈上升趋势。</p><p><br/></p>','1','1','1','18') [ RunTime:0.0456s ]
+INFO: [ hy_log ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000051s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.073001s ]
+
+[ 2016-07-11T14:49:30+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/Category/Details/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001598s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\SIS.JXNU-B\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001364s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001529s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `edu_details` [ RunTime:0.0110s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000102s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.000269s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000141s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.000138s ]
+NOTIC: [8] Undefined index: limit C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 160 行.
+NOTIC: [8] Undefined index: order C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined index: field C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 170 行.
+NOTIC: [8] Undefined index: where C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: decrypt C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+SQL: SHOW COLUMNS FROM `edu_details` [ RunTime:0.0074s ]
+SQL: SELECT 1 FROM `edu_details` `hy` LEFT JOIN `edu_user` AS `user` ON hy.user_id = user.id LEFT JOIN `edu_language` AS `language` ON hy.language_id = language.id LEFT JOIN `edu_category` AS `category` ON hy.category_id = category.id LEFT JOIN `edu_frame_file` AS `frame_file` ON hy.file_id = frame_file.id  WHERE hy.status < 9  [ RunTime:0.0053s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000271s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.020807s ]
+NOTIC: [8] Undefined index: hy C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 140 行.
+NOTIC: [8] Undefined index: associate C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+SQL: SHOW COLUMNS FROM `edu_details` [ RunTime:0.0129s ]
+SQL: SELECT hy.id,hy.language_id,hy.category_id,hy.title,hy.content,hy.user_id,hy.file_id,hy.create_time,hy.update_time,hy.status,hy.hit,hy.is_check,hy.is_publish,user.name AS `user_name`,language.language AS `language_name`,category.name AS `category_name`,frame_file.name AS `file_name` FROM `edu_details` `hy` LEFT JOIN `edu_user` AS `user` ON hy.user_id = user.id LEFT JOIN `edu_language` AS `language` ON hy.language_id = language.id LEFT JOIN `edu_category` AS `category` ON hy.category_id = category.id LEFT JOIN `edu_frame_file` AS `frame_file` ON hy.file_id = frame_file.id  WHERE hy.status < 9 ORDER BY hy.id desc LIMIT 0,10   [ RunTime:0.1350s ]
+NOTIC: [8] Undefined index: hidden C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 595 行.
+NOTIC: [8] Undefined index: hidden C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 595 行.
+NOTIC: [8] Undefined index: title C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 595 行.
+NOTIC: [8] Undefined index: title C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 595 行.
+NOTIC: [8] Undefined index: title C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 595 行.
+NOTIC: [8] Undefined index: hidden C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 595 行.
+NOTIC: [8] Undefined index: hidden C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 595 行.
+NOTIC: [8] Undefined index: hidden C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 595 行.
+NOTIC: [8] Undefined index: hidden C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 595 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: language_id_text C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 820 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: list C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 605 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: language_id_text C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 820 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: list C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 605 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: language_id_text C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 820 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: list C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 605 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: language_id_text C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 820 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: list C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 605 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: language_id_text C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 820 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: list C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 605 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: language_id_text C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 820 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: list C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 605 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: language_id_text C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 820 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: list C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 605 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: language_id_text C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 820 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: list C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 605 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: language_id_text C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 820 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: list C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 605 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: language_id_text C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 820 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: list C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 605 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: {callback} C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 806 行.
+NOTIC: [8] Undefined index: info C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyAllModel.class.php 第 470 行.
+INFO: [ hy_log ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000078s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.201642s ]
+
+[ 2016-07-11T14:50:07+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/Category/Details/ajax?q=detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002822s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\SIS.JXNU-B\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000828s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000983s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `edu_details` [ RunTime:0.0790s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000096s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.000221s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000182s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.000131s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql C:\wamp\www\SIS.JXNU-B\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000132s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.000609s ]
+NOTIC: [2] Missing argument 1 for Common\Model\HyFrameModel::find(), called in C:\wamp\www\SIS.JXNU-B\Application\Category\Model\DetailsSAModel.class.php on line 364 and defined C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 271 行.
+NOTIC: [8] Undefined variable: options C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 272 行.
+NOTIC: [8] Undefined variable: options C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 273 行.
+NOTIC: [8] Undefined index: hy C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 140 行.
+NOTIC: [8] Undefined index: order C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined index: field C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 170 行.
+NOTIC: [8] Undefined index: decrypt C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+SQL: SHOW COLUMNS FROM `edu_details` [ RunTime:0.0077s ]
+SQL: SELECT hy.id,hy.language_id,hy.category_id,hy.title,hy.content,hy.user_id,hy.file_id,hy.create_time,hy.update_time,hy.status,hy.hit,hy.is_check,hy.is_publish,user.name AS `user_name`,language.language AS `language_id_text`,category.name AS `category_name`,frame_file.name AS `file_name` FROM `edu_details` `hy` LEFT JOIN `edu_user` AS `user` ON hy.user_id = user.id LEFT JOIN `edu_language` AS `language` ON hy.language_id = language.id LEFT JOIN `edu_category` AS `category` ON hy.category_id = category.id LEFT JOIN `edu_frame_file` AS `frame_file` ON hy.file_id = frame_file.id  WHERE hy.id = '738' LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: tpl C:\wamp\www\SIS.JXNU-B\Application\Common\Controller\HyAllController.class.php 第 90 行.
+INFO: [ before_view ] --START--
+SQL: SHOW COLUMNS FROM `edu_frame_alert` [ RunTime:0.0129s ]
+SQL: SELECT `id`,`category`,`icon`,`message`,`url`,`type`,`create_time` FROM `edu_frame_alert` where `to_users` LIKE '%,18,%' AND ( IFNULL(`read_users`,'')='' OR `read_users` NOT LIKE '%,18,%') AND `status`=1 ORDER BY `id` DESC [ RunTime:0.0005s ]
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.016999s ]
+INFO: [ before_view ] --END-- [ RunTime:0.017124s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+NOTIC: [8] Undefined index: json C:\wamp\www\SIS.JXNU-B\Runtime\Cache\Category\c6d80dac29f4bb3371a39f454a43cf44.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001475s ]
+
+[ 2016-07-11T15:25:40+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/Category/Details/all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\SIS.JXNU-B\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001104s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001330s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\SIS.JXNU-B\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+

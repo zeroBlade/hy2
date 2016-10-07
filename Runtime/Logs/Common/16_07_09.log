@@ -1,0 +1,2058 @@
+[ 2016-07-09T18:41:02+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001247s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:41:02+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:41:02+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001033s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:41:02+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:41:02+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001026s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:41:02+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001003s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:41:02+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:41:02+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001206s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:41:02+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:41:02+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:41:06+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:41:06+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:41:06+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:41:06+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001114s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:41:06+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:41:06+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001031s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:41:06+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:41:06+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:41:06+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:41:06+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:41:21+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001182s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:41:21+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001105s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:41:21+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001173s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:41:21+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001052s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:41:21+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001918s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:41:21+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:41:21+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001181s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:41:21+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001303s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:41:21+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001751s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:41:21+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:41:31+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001076s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:41:31+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:41:31+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001098s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:41:31+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001131s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:41:32+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001283s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:41:32+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001007s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:41:32+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:41:32+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001462s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:41:32+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:41:32+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001194s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:41:44+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001117s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:41:44+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:42:36+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001466s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:42:36+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:42:36+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001203s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:42:36+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001264s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:42:36+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001189s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:42:36+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001088s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:42:36+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:42:36+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000647s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003946s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:42:36+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:42:36+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:43:10+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001105s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:43:10+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001433s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:43:10+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:43:10+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:43:10+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001161s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:43:10+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001220s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:43:10+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000953s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:43:10+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:43:23+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001042s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:43:23+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001234s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:43:23+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:43:23+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:43:23+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001079s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:43:23+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001123s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:43:23+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:43:23+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001214s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:43:23+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:43:24+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:43:29+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:43:29+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001320s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:43:29+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001065s ]
+ERR: 无法加载模块:Carousel-baidu
+
+idu
+
+[ 2016-07-09T18:43:29+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001141s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:43:30+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:43:30+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001060s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:43:30+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001072s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:43:30+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:43:30+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:43:53+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001319s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:43:53+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000989s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:43:53+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000311s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001380s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:43:53+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001040s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:43:53+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001181s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:43:53+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001204s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:43:53+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:43:53+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002137s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:43:53+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002282s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:43:53+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:44:00+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:44:00+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:44:00+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:44:00+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001228s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:44:00+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001226s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:44:00+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:44:00+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:44:00+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001144s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:44:00+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001119s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:44:00+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:44:08+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:44:08+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:44:08+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001198s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:44:08+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001014s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:44:08+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001721s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:44:08+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001006s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:44:08+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:44:08+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001237s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:44:08+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:44:08+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:44:28+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001321s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:44:28+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001066s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:44:28+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001076s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:44:28+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:44:28+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001423s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:44:28+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001017s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:44:28+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001154s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:44:28+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001142s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:44:28+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:44:28+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:45:02+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001425s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:45:02+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001056s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:45:02+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:45:02+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:45:02+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001060s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:45:02+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:45:02+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000983s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:45:02+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001215s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:45:02+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001039s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:45:02+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:45:04+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001432s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:45:04+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001128s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:45:04+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001129s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:45:04+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:45:04+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007998s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:45:04+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:45:04+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001069s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:45:04+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001017s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:45:04+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001223s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:45:04+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:45:06+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001720s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:45:06+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:45:07+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001092s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:45:07+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:45:07+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001582s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:45:07+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:45:07+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:45:07+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001151s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:45:07+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:45:07+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001342s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:45:26+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:45:26+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001264s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:45:26+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:45:26+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000990s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:45:26+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000162s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001178s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:45:26+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:45:26+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:45:26+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:45:27+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:45:45+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001258s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:45:45+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001090s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:45:45+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001431s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:45:45+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005551s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:45:45+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:45:45+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001062s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:45:46+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000982s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:45:46+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001136s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:45:46+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001530s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:45:46+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001160s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:45:56+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:45:56+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001080s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:45:56+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001108s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:45:56+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001221s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:45:56+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001298s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:45:56+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001119s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:45:56+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001097s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:45:56+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001022s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:45:57+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:45:57+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:46:03+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001017s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:46:03+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001380s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:46:03+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:46:03+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001036s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:46:03+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001036s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:46:03+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001310s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:46:03+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001030s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:46:03+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:46:03+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001378s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:46:03+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:46:19+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001216s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:46:19+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001216s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:46:19+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001240s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:46:19+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001100s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:46:19+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001377s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:46:19+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:46:19+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:46:19+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001219s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:46:19+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001158s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:46:19+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001100s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:47:45+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001238s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:47:45+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001920s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:47:45+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001173s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:47:45+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000196s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001251s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:47:45+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001143s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:47:45+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001161s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:47:45+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T18:47:46+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001055s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T18:47:46+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T18:47:46+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001216s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:31:46+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001115s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:31:46+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001442s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:31:46+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:31:46+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001190s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:31:46+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001122s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:31:46+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T19:31:46+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T19:31:47+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001305s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:31:47+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:31:47+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:32:10+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001220s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:32:10+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000191s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001101s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:32:10+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001142s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:32:10+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001099s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:32:10+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:32:10+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T19:32:10+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T19:32:10+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001346s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:32:10+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000242s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001229s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:32:11+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:33:39+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001190s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:33:40+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001154s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:33:40+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001164s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:33:40+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001098s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:33:40+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001131s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:33:40+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001208s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T19:33:40+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000968s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T19:33:40+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001118s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:33:40+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001225s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:33:40+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:38:45+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:38:45+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001040s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:38:45+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001097s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:38:45+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:38:45+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T19:38:45+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T19:38:45+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001204s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:38:45+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001357s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:38:45+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:46:41+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001129s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:46:41+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001072s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:46:41+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001144s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:46:41+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001055s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:46:41+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001391s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:46:42+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001125s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T19:46:42+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:46:42+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:46:50+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001071s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:46:50+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/back-roll.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T19:46:50+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000163s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001600s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:46:50+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001187s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:46:50+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001044s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:46:50+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001918s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:46:50+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001208s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T19:46:51+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001055s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:46:51+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000951s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:47:25+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001085s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:47:25+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001597s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:47:25+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/back-roll.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001112s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T19:47:25+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001701s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:47:25+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001572s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:47:25+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001270s ]
+ERR: 无法加载模块:Images
+
+arousel-baidu
+
+[ 2016-07-09T19:47:25+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:47:25+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001568s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:49:27+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001250s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:49:27+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001730s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:49:27+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001196s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:49:27+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001105s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:49:27+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001055s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:49:27+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/back-roll.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001120s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T19:49:27+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001274s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T19:49:27+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001087s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:49:27+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001146s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:49:29+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:49:29+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/back-roll.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001505s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T19:49:29+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001059s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:49:29+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:49:29+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001190s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:49:29+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T19:49:29+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001225s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:49:29+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:49:36+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001181s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:49:37+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001164s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:49:37+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001048s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:49:37+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/back-roll.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000989s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T19:49:37+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:49:37+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001574s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:49:37+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001096s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T19:49:37+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001066s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:49:37+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:49:38+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:49:38+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/back-roll.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001199s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T19:49:38+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001160s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:49:38+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001660s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:49:38+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001288s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:49:38+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:49:39+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001482s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:49:39+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T19:49:39+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:49:40+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:49:40+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000963s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:49:40+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001034s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:49:40+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001229s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:49:40+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:49:40+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001158s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T19:49:40+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:49:40+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:50:07+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001276s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:50:07+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:50:07+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001091s ]
+ERR: 无法加载模块:Bootstrap
+
+
+
+[ 2016-07-09T19:50:07+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/back-roll.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003641s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T19:50:07+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001034s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:50:07+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001306s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T19:50:07+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:50:08+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:50:08+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:50:24+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001205s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:50:24+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001028s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:50:24+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000995s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:50:24+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:50:24+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/back-roll.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001122s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T19:50:24+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003038s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:50:24+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001168s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T19:50:24+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001046s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:50:25+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001760s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:50:25+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:51:14+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:51:14+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:51:14+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/yx_rotaion.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001340s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:51:14+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/back-roll.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001592s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T19:51:14+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001529s ]
+ERR: 无法加载模块:Carousel-baidu
+
+[ 2016-07-09T19:51:14+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/images/link-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001103s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-09T19:51:15+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001210s ]
+ERR: 无法加载模块:Bootstrap
+
+[ 2016-07-09T19:51:15+08:00 ] 127.0.0.1 /SIS.JXNU-B/index.php/carousel-baidu/jquery.yx_rotaion.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+ERR: 无法加载模块:Carousel-baidu
+

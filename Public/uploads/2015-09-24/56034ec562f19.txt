@@ -1,0 +1,97 @@
+function People(name)
+{
+  this.name=name;
+  //对象方法
+  this.Introduce=function(){
+    alert("My name is "+this.name);
+  }
+}
+//类方法
+People.Run=function(){
+  alert("I can run");
+}
+//原型方法
+People.prototype.IntroduceChinese=function(){
+  alert("我的名字是"+this.name);
+}
+
+
+
+//测试
+
+var p1=new People("Windking");
+
+p1.Introduce();
+
+People.Run();
+
+p1.IntroduceChinese();
+
+-------------------------------------------------------------
+
+
+(function(){})表示一个匿名函数。
+function(arg){...}定义了一个参数为arg的匿名函数，
+然后使用(function(arg){...})(param)来调用这个匿名函数。
+其中param是传入这个匿名函数的参数。
+需要注意与$(function(){})的区别：$(function(){}) 是
+ $(document).ready(function(){}) 的简写，
+用来在DOM加载完成之后执行一系列预先定义好的函数。
+
+------------------------------------------------------------------
+我们先把jQuery看成了一个类，这样好理解一些。
+
+=======jQuery.extend()，是扩展的jQuery这个类。===========
+
+假设我们把jQuery这个类看成是人类，能吃饭能喝水能跑能跳，现在我们用jQuery.extend这个方法给这个类拓展一个能唱歌的技能。
+这样的话，不论是男人，女人，xx人.....等能继承这个技能（方法）了。
+这说明啥啊，这说明.liu()变成了jQuery这个类本身的方法（object）嘛。他现在能”唱歌“了。
+但是吧，这个能力啊，只有代表全人类的 jQuery 这个类本身，才能用啊。你个人想用，你张三李四王五麻六，你个小草民能代表全人类嘛？
+所以啊，这个扩展也就是所谓的静态方法。只跟这个 类 本身有关。跟你具体的实例化对象是没关系滴。
+
+哦，原来jQuery.fn=jQuery.prototype，就是原型啊。
+那就一目了然了，
+=============jQuery.fn.extend拓展的是jQuery对象（原型的）的方法啊！===================
+对象是啥？就是类的实例化嘛，例如
+$("#abc") 
+ 这个玩意就是一个实例化的jQuery对象嘛。
+那就是说，jQuery.fn.extend拓展的方法，你得用在jQuery对象上面才行啊！他得是张三李四王五痳六这些实例化的对象才能用啊。
+说白了就是得这么用（假设xyz()是拓展的方法）：
+$('selector').xyz();
+ 你要是这么用$.xyz()；是会出错误滴。
+-------------------------------------------------------------------------
+合并 settings 和 options，修改并返回 settings。
+
+jQuery 代码:
+var settings = { validate: false, limit: 5, name: "foo" };
+var options = { validate: true, name: "bar" };
+jQuery.extend(settings, options);
+
+结果:
+settings == { validate: true, limit: 5, name: "bar" }
+
+
+描述:合并 defaults 和 options, 不修改 defaults。
+jQuery 代码:
+var empty = {};
+var defaults = { validate: false, limit: 5, name: "foo" };
+var options = { validate: true, name: "bar" };
+var settings = jQuery.extend(empty, defaults, options);
+
+结果:
+settings == { validate: true, limit: 5, name: "bar" }
+empty == { validate: true, limit: 5, name: "bar" }
+-------------------------------------------------------------------】
+(function(){
+    var sub$ = jQuery.sub();
+
+    sub$.fn.myCustomMethod = function(){
+      return 'just for me';
+    };
+
+    sub$(document).ready(function() {
+      sub$('body').myCustomMethod() // 'just for me'
+    });
+  })();
+  
+  typeof jQuery('body').myCustomMethod // undefined

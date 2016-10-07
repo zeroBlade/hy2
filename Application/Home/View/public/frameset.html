@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-COMPATIBLE">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>frameset</title>
+
+	<link rel="stylesheet" href="__PUBLIC__/assets/global/plugins/bootstrap/css/bootstrap.min.css" type="text/css">
+	<style>
+	 	@font-face{
+		    font-family: 'Pacifico';
+		   src: url(__PUBLIC__/assets/global/fonts/theme_font/Pacifico.ttf)format('truetype');
+		 }
+		body{
+			font-family: "微软雅黑";
+			position: relative;
+		}
+	
+		#nav_top{
+			position: fixed;
+			width:100%;
+			z-index:100;
+			background-color:transparent;
+			padding:8px 0;
+			height:90px;
+			transition:all .28s cubic-bezier(0.4,0,0.2,1);
+			border-bottom:1.5px solid #fff;
+			font-family: "幼圆";
+		}
+		.navbar,#collapse,#collapse ul,#collapse ul li{
+			height: 100% !important;
+			position: relative;
+		}
+		
+		a.navbar-brand{
+			font-family:'Pacifico';
+			font-size:2em;
+			display: block;
+			width:100%;
+			transform: translateY(8px);
+			color:rgba(252,122,8,1)!important;
+		}
+
+		#nav_form{
+			position: relative;
+			top:10px;
+		}
+
+		#main{
+			position: relative;
+			width:100%;
+			min-height:849px;
+			
+			box-sizing: border-box;
+		}
+		#footer{
+			position: relative;
+			height:100px;
+			color:#fffff0;
+			background-color:rgba(44,34,45,1);
+			z-index:10;
+		}
+		#footer table{
+			margin:0 auto;
+		}
+		#footer tr td{
+			text-align: center;
+			padding-top:5px;
+		}
+		.navbar{
+			border:transparent;
+			background-color:transparent;
+		}
+
+		.nav li a{
+			font-size: 20px;
+			top:10px;
+			color:#666666!important;
+			font-weight: bold;
+			transition: all .5s;
+		}
+		.nav li:hover a{
+			color:#3399FF!important;
+		}
+
+		.change_size{
+			background-color: rgba(255,255,255,1)!important;
+			padding:3px 0!important;
+			height: 70px!important;
+			border-bottom:1.5px solid transparent;
+
+		}
+		#collapse .pull-right li{
+			margin:0 10px;
+			transition:all .5s;
+		}
+
+		#collapse .pull-right a{
+			display: block;
+		}
+
+		#collapse .pull-right li:hover a{
+			color:#FF9933!important;
+		}
+		.nav{
+			position: relative;
+		}
+
+		.navbar-toggle{
+				position: absolute;
+				top:20%;
+				right:0;
+		}
+
+		.user_img{
+			position:absolute;
+			width: 45px;
+			height: 45px;
+			border-radius: 50%;
+			top:15%;
+			right:0;
+		}
+
+		
+
+
+
+		@media screen and (max-width: 800px) {
+		    #nav_top{
+		    	background-color:rgba(255,255,255,1) ;
+		    }
+		    #collapse{
+		    	min-height: 150px;
+		    	background-color: #fff;
+		    }
+		}
+
+		
+		
+	</style>
+
+	<block name="style"></block>
+</head>
+<body>
+	<div id="nav_top">
+		<div class="navbar navbar-default " role="navigation">
+			<div class="navbar-header">
+
+			    <a href="javascript:;" class="navbar-brand">    
+			    	Coming<i style="color:#333399;">H</i>ome
+                </a>
+
+				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+					<span class="sr-only">Toggle Navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				
+			</div>
+
+			<div id="collapse" class="collapse navbar-collapse navbar-responsive-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="{:U('Index/index')}">首页</a></li>
+					<volist name="nav" id="vo">
+						<li class="">
+							<a href="{:U('Index/category',array('category_id'=>$vo['id']))}">{$vo['name']}</a>
+						</li>
+		      		</volist>
+				</ul>
+				
+				<ul class="nav navbar-nav pull-right">
+					<empty name="userId">
+						<li><a href="{:U('Index/login')}">登录</a></li>
+						<li class="slip_register"><a href="javascript:;">注册</a></li>
+					<else/>
+					
+						<li><a href="javascript:;"><img class="user_img" src="__PUBLIC__/uploads/images/{$checkRes['avatar_file']}" alt="{$checkRes['name']}"></a></li>
+
+						<li><a href="{:U('Index/member')}">个人信息</a></li>
+
+						<li><a href="{:U('System/HyStart/login')}">后台管理</a></li>
+						
+					</empty>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<div id="main">
+		<block name="main"></block>
+	</div>
+
+	<footer id="footer">
+		<table>
+			<tbody>
+				<tr><td></td></tr>
+				<tr>
+					<td colspan="3">Copyright© 2016江西师范大学宏奕工作室，工作室地址：江西省南昌市紫阳大道99号 邮政编码：000000</td>
+				</tr>
+				
+				<tr>
+					<td colspan="3">联系电话：0791-8120460 赣ICP备11002450号-1   技术支持：江西师范大学计算机信息工程学院宏奕工作室</td>
+				</tr>
+				
+			</tbody>
+		</table>
+	</footer>
+</body>
+<script src="__PUBLIC__/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="__PUBLIC__/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	$(function(){
+		var navTop =(function(){
+				var nav = $("#nav_top");
+				var scroll_end = 0;
+				var isTop = true;
+				var slipRegister = $(".slip_register");
+				var body = $("html,body");
+
+				return {
+					changeSize:function(type){
+						// console.log(isTop);
+						if(!type){
+							nav.mouseover(function(){
+			                   if(!isTop){
+			                        return;
+			                   }
+			                    nav.addClass('change_size');
+			                })
+
+			                nav.mouseout(function(){
+			                   if(!isTop){
+			                        return;
+			                   }
+			                    nav.removeClass('change_size');
+			                })
+			                     
+			                $(window).scroll(function(){
+			                     scroll_end = $(document).scrollTop();
+			                     // console.log(scroll_end);
+			                     
+			                     if(scroll_end==0){
+			                          isTop = true;
+			                          nav.removeClass('change_size');
+			                     
+			                     }else if(scroll_end > 0){
+			                          isTop = false;
+			                          nav.addClass('change_size');                                      
+			                     }
+			                })
+						}else if(type=="none"){
+							return false;
+						}
+		                
+					},
+					slipToRegiste:function(){
+						slipRegister.on("click",function(){
+							body.animate({scrollTop: $("#joinUs").offset().top}, 500);
+						})
+					}
+				}
+		})()
+		
+		navTop.changeSize();
+		navTop.slipToRegiste();
+
+		window['navTop'] = navTop;
+	})
+</script>
+
+<block name="script"></block>
+<block name="script-init"></block>
+</html>
