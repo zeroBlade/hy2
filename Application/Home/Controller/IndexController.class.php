@@ -30,6 +30,7 @@ class IndexController extends BaseController{
 	public function getAjaxSelect(){
 		$ca = D('Category');
 		$data = $ca->getNav();
+		
 		$this->ajaxReturn($data);
 	}
 
