@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>frameset</title>
 
-	<link rel="stylesheet" href="/Hy2/HY2/Public/assets/global/plugins/bootstrap/css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="/Hy2/hy2/Public/assets/global/plugins/bootstrap/css/bootstrap.min.css" type="text/css">
 	<style>
 	 	@font-face{
 		    font-family: 'Pacifico';
-		   src: url(/Hy2/HY2/Public/assets/global/fonts/theme_font/Pacifico.ttf)format('truetype');
+		   src: url(/Hy2/hy2/Public/assets/global/fonts/theme_font/Pacifico.ttf)format('truetype');
 		 }
 		body{
 			font-family: "微软雅黑";
@@ -141,8 +141,8 @@
 	</style>
 
 	
-	<link rel="stylesheet" type="text/css" href="/Hy2/HY2/Public/assets/global/styles/index/index.css"/>
-	<link rel="stylesheet" type="text/css" href="/Hy2/HY2/Public/assets/global/styles/index/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="/Hy2/hy2/Public/assets/global/styles/index/index.css"/>
+	<link rel="stylesheet" type="text/css" href="/Hy2/hy2/Public/assets/global/styles/index/animate.min.css">
 	<style>
 		.pre_reason{
 			width:100%;
@@ -196,7 +196,7 @@
 						<li class="slip_register"><a href="javascript:;">注册</a></li>
 					<?php else: ?>
 					
-						<li><a href="javascript:;"><img class="user_img" src="/Hy2/HY2/Public/uploads/images/<?php echo ($checkRes['avatar_file']); ?>" alt="<?php echo ($checkRes['name']); ?>"></a></li>
+						<li><a href="javascript:;"><img class="user_img" src="/Hy2/hy2/Public/uploads/images/<?php echo ($checkRes['avatar_file']); ?>" alt="<?php echo ($checkRes['name']); ?>"></a></li>
 
 						<li><a href="<?php echo U('Index/member');?>">个人信息</a></li>
 
@@ -425,7 +425,7 @@
 			<div class="sub_reason newest">
 				<div class="row">
 					<div class="col-md-4 wow fadeInLeft" data-wow-duration="2.5s">
-						<img class="" src="/Hy2/HY2/Public/assets/global/img/index/reason/newest.png"    alt="">
+						<img class="" src="/Hy2/hy2/Public/assets/global/img/index/reason/newest.png"    alt="">
 					</div>
 					<div class="col-md-8 wow fadeInRight" data-wow-duration="3s">
 						<h3>最新资讯</h3>
@@ -446,7 +446,7 @@
 					</div>
 					
 					<div class="col-md-4 wow fadeInUp" data-wow-duration="2.5s">
-						<img   src="/Hy2/HY2/Public/assets/global/img/index/reason/trust.png" alt="">
+						<img   src="/Hy2/hy2/Public/assets/global/img/index/reason/trust.png" alt="">
 					</div>
 				</div>
 			</div>
@@ -454,7 +454,7 @@
 			<div class="sub_reason privilege">
 				<div class="row">
 					<div class="col-md-4 wow fadeInLeft" data-wow-duration="2.5s">
-						<img   src="/Hy2/HY2/Public/assets/global/img/index/reason/privilege.png" alt="">
+						<img   src="/Hy2/hy2/Public/assets/global/img/index/reason/privilege.png" alt="">
 					</div>
 
 					<div class="col-md-8 wow fadeInRight" data-wow-duration="3s">
@@ -519,8 +519,8 @@
 		</table>
 	</footer>
 </body>
-<script src="/Hy2/HY2/Public/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
-<script src="/Hy2/HY2/Public/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="/Hy2/hy2/Public/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="/Hy2/hy2/Public/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 	$(function(){
@@ -583,9 +583,9 @@
 </script>
 
 
-<!-- 	<script src="/Hy2/HY2/Public/assets/global/plugins/bootstrap-carousel.min.js" type="text/javascript"></script> -->
-	<script src="/Hy2/HY2/Public/assets/global/scripts/jquery.validate-1.13.1.js" type="text/javascript"></script>
-	<script src="/Hy2/HY2/Public/assets/global/scripts/wow.min.js" type="text/javascript"></script>
+<!-- 	<script src="/Hy2/hy2/Public/assets/global/plugins/bootstrap-carousel.min.js" type="text/javascript"></script> -->
+	<script src="/Hy2/hy2/Public/assets/global/scripts/jquery.validate-1.13.1.js" type="text/javascript"></script>
+	<script src="/Hy2/hy2/Public/assets/global/scripts/wow.min.js" type="text/javascript"></script>
 
 
 	<script type="text/javascript">
@@ -636,7 +636,7 @@
 
 				return {
 					addImg:function() {
-						var imgUrl = "/Hy2/HY2/Public/assets/global/json/data.json";
+						var imgUrl = "/Hy2/hy2/Public/assets/global/json/data.json";
 
 						 $.getJSON(imgUrl,function(data){
 								var imgArr = [];
@@ -663,7 +663,7 @@
 									var li = "<li class='tool'>\
 												<div class='tool_box'>\
 													<div class='sub_tool_box'>\
-														<img src='/Hy2/HY2/Public/assets/global/img/index/house/"+imgArr[i].src+"' alt=''>\
+														<img src='/Hy2/hy2/Public/assets/global/img/index/house/"+imgArr[i].src+"' alt=''>\
 														<div class='img_content'><a href='javascript:;'>"+imgArr[i].content+"</a></div>\
 													</div>\
 													<div class='img_name'><span>"+imgArr[i].name+"</span></div>\

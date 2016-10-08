@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>frameset</title>
 
-	<link rel="stylesheet" href="/Hy2/HY2/Public/assets/global/plugins/bootstrap/css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="/Hy2/hy2/Public/assets/global/plugins/bootstrap/css/bootstrap.min.css" type="text/css">
 	<style>
 	 	@font-face{
 		    font-family: 'Pacifico';
-		   src: url(/Hy2/HY2/Public/assets/global/fonts/theme_font/Pacifico.ttf)format('truetype');
+		   src: url(/Hy2/hy2/Public/assets/global/fonts/theme_font/Pacifico.ttf)format('truetype');
 		 }
 		body{
 			font-family: "微软雅黑";
@@ -364,7 +364,7 @@
 						<li class="slip_register"><a href="javascript:;">注册</a></li>
 					<?php else: ?>
 					
-						<li><a href="javascript:;"><img class="user_img" src="/Hy2/HY2/Public/uploads/images/<?php echo ($checkRes['avatar_file']); ?>" alt="<?php echo ($checkRes['name']); ?>"></a></li>
+						<li><a href="javascript:;"><img class="user_img" src="/Hy2/hy2/Public/uploads/images/<?php echo ($checkRes['avatar_file']); ?>" alt="<?php echo ($checkRes['name']); ?>"></a></li>
 
 						<li><a href="<?php echo U('Index/member');?>">个人信息</a></li>
 
@@ -513,8 +513,8 @@
 		</table>
 	</footer>
 </body>
-<script src="/Hy2/HY2/Public/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
-<script src="/Hy2/HY2/Public/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="/Hy2/hy2/Public/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="/Hy2/hy2/Public/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 	$(function(){
@@ -577,7 +577,7 @@
 </script>
 
 
-	<script src="/Hy2/HY2/Public/assets/global/scripts/jquery.validate-1.13.1.js" type="text/javascript"></script>
+	<script src="/Hy2/hy2/Public/assets/global/scripts/jquery.validate-1.13.1.js" type="text/javascript"></script>
 
 
 	<script type="text/javascript">
@@ -828,7 +828,7 @@
 								subArticle = 
 	                            "<div class='sub_article row'>\
 									<div class='col-md-3'>\
-										<img class='art_img' src='/Hy2/HY2/Public/uploads/images/"+data[i]['img']+"' alt='"+data[i]['title']+"'>\
+										<img class='art_img' src='/Hy2/hy2/Public/uploads/images/"+data[i]['img']+"' alt='"+data[i]['title']+"'>\
 									</div>\
 									<div class='col-md-9'>\
 										<a href='javascript:;' class='art_content'>\
